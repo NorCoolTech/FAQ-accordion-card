@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid red;
+    width: 1440px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.images {
+    position: absolute;
+    background-image: url("./images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: -55%;
+    background-position-y: center;
+}
+
+.faq {
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+
+}
